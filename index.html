@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florería Sode · Sodelva Martínez, Diseñadora Floral</title>
+  <meta name="description" content="Florería Sode — arreglos florales, bouquets, cajas y baúles diseñados por Sodelva Martínez, diseñadora floral. Pedidos al 844 160 5677.">
+  <meta name="theme-color" content="#e0527e">
+  <meta property="og:title" content="Florería Sode">
+  <meta property="og:description" content="Arreglos florales hechos con amor por Sodelva Martínez, diseñadora floral.">
+  <meta property="og:image" content="assets/img/catalogo/24-rosas.jpg">
+  <link rel="icon" type="image/png" href="assets/img/logo-sode.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Great+Vibes&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="header" id="inicio">
+    <nav class="nav container">
+      <a href="#inicio" class="nav__brand" aria-label="Florería Sode, inicio">
+        <img src="assets/img/logo-sode.png" alt="Logo Florería Sode" width="125" height="47">
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__menu" id="menu">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="https://wa.me/528441605677" class="btn btn--small" target="_blank" rel="noopener">Hacer pedido</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Portada -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="script">Flores que hablan por ti</p>
+          <h1>Florería <span>Sode</span></h1>
+          <p class="hero__lead">
+            Arreglos, bouquets y detalles florales diseñados a mano por
+            <strong>Sodelva Martínez</strong>, diseñadora floral.
+          </p>
+          <div class="hero__actions">
+            <a href="#catalogo" class="btn">Ver catálogo</a>
+            <a href="tel:+528443092044" class="btn btn--ghost">Llamar ahora</a>
+          </div>
+          <ul class="hero__social">
+            <li><a href="https://www.instagram.com/floreria_sode571?stkn=MW02NnhzaXVtZDNhcA==" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" class="fill"/></svg>
+            </a></li>
+            <li><a href="https://www.facebook.com/share/1C4XAATvuA/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21h2.9z"/></svg>
+            </a></li>
+            <li><a href="https://wa.me/528441605677" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.2-3.6A8 8 0 1 1 8 19.1L4 20z"/><path class="fill" d="M9.3 7.8c.2-.4.4-.4.6-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2.1.4 0 .5l-.4.6c-.1.2-.1.3 0 .5.5.9 1.3 1.7 2.3 2.2.2.1.3.1.5-.1l.6-.7c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4 0 .5-.2 1.2-.7 1.5-.6.4-1.4.6-2.6.2-2.2-.7-4-2.6-4.8-4.3-.5-1.2-.1-2.3.4-2.9z"/></svg>
+            </a></li>
+          </ul>
+        </div>
+        <div class="hero__gallery" aria-hidden="true">
+          <img src="assets/img/catalogo/caja-elite-grande.jpg" alt="" class="hero__img hero__img--main">
+          <img src="assets/img/catalogo/24-rosas.jpg" alt="" class="hero__img hero__img--top">
+          <img src="assets/img/catalogo/bouquet-gerberas.jpg" alt="" class="hero__img hero__img--bottom">
+          <span class="hero__badge">Catálogo<br><strong>2026</strong></span>
+        </div>
+      </div>
+      <svg class="hero__wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40c240 50 480 50 720 20s480-60 720-10v40H0z"/></svg>
+    </section>
+
+    <!-- Nosotros -->
+    <section class="about section" id="nosotros">
+      <div class="container about__grid">
+        <figure class="about__photo">
+          <img src="assets/img/catalogo/arreglo-mixto.jpg" alt="Arreglo mixto de rosas y tulipanes en caja blanca" loading="lazy">
+        </figure>
+        <div class="about__text">
+          <p class="script">Con amor, de nuestras manos</p>
+          <h2>Sodelva Martínez</h2>
+          <p class="about__role">Diseñadora floral</p>
+          <p>
+            En Florería Sode cada arreglo es una pieza única. Sodelva selecciona
+            personalmente cada flor y diseña cada detalle para que tu regalo
+            transmita exactamente lo que sientes: amor, gratitud, alegría o consuelo.
+          </p>
+          <p>
+            Creamos bouquets, cajas, baúles, floreros y arreglos para cumpleaños,
+            aniversarios, Día de las Madres, eventos y cualquier ocasión especial.
+          </p>
+          <ul class="about__features">
+            <li><span>🌷</span>Flores frescas</li>
+            <li><span>🎀</span>Diseños personalizados</li>
+            <li><span>💐</span>Para toda ocasión</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section class="catalog section" id="catalogo">
+      <div class="container">
+        <header class="section__head">
+          <p class="script">Catálogo 2026</p>
+          <h2>Nuestros diseños</h2>
+          <p>Elige tu favorito y haz tu pedido directo por WhatsApp.</p>
+        </header>
+
+        <div class="filters" role="tablist" aria-label="Filtrar catálogo">
+          <button class="filter is-active" data-filter="todos" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="bouquets" role="tab" aria-selected="false">Bouquets</button>
+          <button class="filter" data-filter="cajas" role="tab" aria-selected="false">Cajas</button>
+          <button class="filter" data-filter="baules" role="tab" aria-selected="false">Baúles y bolsas</button>
+          <button class="filter" data-filter="arreglos" role="tab" aria-selected="false">Arreglos y floreros</button>
+        </div>
+
+        <div class="grid" id="catalog-grid"></div>
+
+        <p class="catalog__note">
+          Precios en pesos mexicanos, sujetos a cambio y disponibilidad de temporada.
+          <a href="assets/catalogo-sode-2026.pdf" target="_blank" rel="noopener">Descargar catálogo en PDF</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact section" id="contacto">
+      <div class="container">
+        <header class="section__head">
+          <p class="script">Estamos para ti</p>
+          <h2>Contáctanos</h2>
+          <p>Llámanos, escríbenos o visítanos. Con gusto te ayudamos a elegir el arreglo perfecto.</p>
+        </header>
+
+        <div class="contact__grid">
+          <a class="card-contact" href="tel:+528443092044">
+            <span class="card-contact__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 6 6L15 14l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+            </span>
+            <h3>Teléfono</h3>
+            <p>844 309 2044</p>
+          </a>
+          <a class="card-contact" href="https://wa.me/528441605677" target="_blank" rel="noopener">
+            <span class="card-contact__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg>
+            </span>
+            <h3>Celular</h3>
+            <p>844 160 5677</p>
+          </a>
+          <a class="card-contact" href="https://www.instagram.com/floreria_sode571?stkn=MW02NnhzaXVtZDNhcA==" target="_blank" rel="noopener">
+            <span class="card-contact__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" class="fill"/></svg>
+            </span>
+            <h3>Instagram</h3>
+            <p>@floreria_sode571</p>
+          </a>
+          <a class="card-contact" href="https://www.facebook.com/share/1C4XAATvuA/?mibextid=wwXIfr" target="_blank" rel="noopener">
+            <span class="card-contact__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21h2.9z"/></svg>
+            </span>
+            <h3>Facebook</h3>
+            <p>Florería Sode</p>
+          </a>
+        </div>
+
+        <a class="location" href="https://maps.app.goo.gl/baCZzm1KH9pyd6bt9" target="_blank" rel="noopener">
+          <span class="location__pin">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+          </span>
+          <span class="location__text">
+            <strong>Visítanos en nuestra florería</strong>
+            <span>Ver ubicación en Google Maps</span>
+          </span>
+          <span class="location__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <img src="assets/img/logo-sode.png" alt="Florería Sode" width="150" height="56" loading="lazy">
+      <p class="script">Sodelva Martínez · Diseñadora Floral</p>
+      <p class="footer__links">
+        <a href="tel:+528443092044">844 309 2044</a> ·
+        <a href="tel:+528441605677">844 160 5677</a>
+      </p>
+      <p class="footer__copy">© <span id="year">2026</span> Florería Sode. Hecho con amor y flores.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float" href="https://wa.me/528441605677" target="_blank" rel="noopener" aria-label="Pedir por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.2-3.6A8 8 0 1 1 8 19.1L4 20z"/><path class="fill" d="M9.3 7.8c.2-.4.4-.4.6-.4h.5c.2 0 .4 0 .5.4l.7 1.6c.1.2.1.4 0 .5l-.4.6c-.1.2-.1.3 0 .5.5.9 1.3 1.7 2.3 2.2.2.1.3.1.5-.1l.6-.7c.1-.2.3-.2.5-.1l1.6.8c.2.1.3.2.3.4 0 .5-.2 1.2-.7 1.5-.6.4-1.4.6-2.6.2-2.2-.7-4-2.6-4.8-4.3-.5-1.2-.1-2.3.4-2.9z"/></svg>
+  </a>
+
+  <!-- Visor de imágenes -->
+  <dialog class="lightbox" id="lightbox" aria-label="Vista ampliada">
+    <button class="lightbox__close" aria-label="Cerrar">×</button>
+    <img src="" alt="">
+    <div class="lightbox__info">
+      <h3></h3>
+      <p class="lightbox__price"></p>
+      <a class="btn" href="#" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
