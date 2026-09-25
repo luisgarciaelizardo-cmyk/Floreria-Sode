@@ -119,6 +119,21 @@ h1, h2, h3 { font-family: var(--serif); line-height: 1.1; margin: 0; }
 .hero__lead { font-size: 1.15rem; color: var(--gris); max-width: 480px; margin: 18px 0 30px; }
 .hero__lead strong { color: var(--tinta); }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 14px; }
+.hero__wa {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-top: 18px;
+  padding: 10px 20px 10px 12px;
+  border-radius: 999px;
+  background: #25d366;
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 8px 20px rgba(37, 211, 102, .3);
+  transition: transform .25s;
+}
+.hero__wa:hover { transform: translateY(-2px); }
+.hero__wa svg { width: 26px; height: 26px; stroke: var(--blanco); }
+.hero__wa svg .fill { fill: var(--blanco); }
 
 .hero__social { display: flex; gap: 12px; list-style: none; padding: 0; margin: 34px 0 0; }
 .hero__social a {
@@ -259,7 +274,7 @@ svg .fill { fill: var(--rosa-oscuro); stroke: none; }
 
 /* ===== Contacto ===== */
 .contact { background: var(--blanco); }
-.contact__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; }
+.contact__grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 22px; }
 .card-contact {
   display: flex; flex-direction: column; align-items: center;
   padding: 32px 18px;
@@ -280,6 +295,10 @@ svg .fill { fill: var(--rosa-oscuro); stroke: none; }
 }
 .card-contact__icon svg { width: 26px; height: 26px; }
 .card-contact h3 { font-size: 1.5rem; }
+.card-contact--wa { background: #e9fbef; border-color: #b6ecc8; }
+.card-contact--wa .card-contact__icon { background: #25d366; }
+.card-contact--wa svg { stroke: var(--blanco); }
+.card-contact--wa svg .fill { fill: var(--blanco); }
 .card-contact p { margin: 6px 0 0; color: var(--gris); font-weight: 600; word-break: break-word; }
 
 .location {
@@ -363,6 +382,7 @@ svg .fill { fill: var(--rosa-oscuro); stroke: none; }
   .about__photo { max-width: 420px; margin: 0 auto 20px; }
   .about__photo::before { inset: 14px -12px -12px 14px; }
   .contact__grid { grid-template-columns: repeat(2, 1fr); }
+  .card-contact--wa { grid-column: 1 / -1; }
 }
 
 @media (max-width: 760px) {
